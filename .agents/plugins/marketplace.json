@@ -1,0 +1,64 @@
+{
+  "name": "megamen32-public",
+  "interface": {
+    "displayName": "megamen32 Public Plugins"
+  },
+  "plugins": [
+    {
+      "name": "ask-human",
+      "description": "Request a human decision or missing non-secret information through AskHuman.",
+      "source": { "source": "url", "url": "https://github.com/megamen32/ask-human-plugin.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Productivity"
+    },
+    {
+      "name": "ask-secret",
+      "description": "Create a one-time browser handoff for entering a secret without putting it in chat.",
+      "source": { "source": "url", "url": "https://github.com/megamen32/ask-secret-plugin.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Security"
+    },
+    {
+      "name": "agent-herder",
+      "description": "Coordinate and supervise coding-agent sessions with MCP messaging, TTL notes, session inspection, and autopilot.",
+      "source": { "source": "url", "url": "https://github.com/megamen32/agent-herder.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grepmesh-search",
+      "description": "Bounded GrepMesh search for unknown locations and cross-host scopes.",
+      "source": { "source": "git-subdir", "url": "https://github.com/megamen32/grepmesh.git", "path": "plugins/grepmesh-search", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fast-agent-plugin",
+      "description": "Fast-Agent command plugin and portable Agent Plugins skill bundle.",
+      "source": { "source": "git-subdir", "url": "https://github.com/megamen32/fast-agent-plugin.git", "path": "plugins/fast-agent-plugin", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "last-human-commit",
+      "description": "Business-first engineering workflow with research, implementation, testing, and release skills.",
+      "source": { "source": "git-subdir", "url": "https://github.com/megamen32/LastHumanCommit.git", "path": "plugins/last-human-commit", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "learn-hermes",
+      "description": "Durable-learning and skill-refinement policy packaged as an Agent Plugins 1.0 plugin.",
+      "source": { "source": "url", "url": "https://github.com/megamen32/learn-hermes.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ouroboros-self-improve",
+      "description": "Reviewed self-improvement workflow with portable reflection and evolution skills.",
+      "source": { "source": "url", "url": "https://github.com/megamen32/ouroboros-self-improve-plugin.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL", "products": ["CODEX"] },
+      "category": "Developer Tools"
+    }
+  ]
+}

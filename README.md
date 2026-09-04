@@ -1,17 +1,31 @@
-# megamen32 public marketplace
+# megamen32 public Agent Plugins marketplace
 
-Public Claude Code plugin marketplace for open-source plugins maintained by `megamen32`.
+Public, Codex-first marketplace for portable [Agent Plugins 1.0.0](https://agent-plugins.org/) packages maintained by `megamen32`.
 
-## Add marketplace
+## Primary format: OpenAI Codex / Agent Plugins
 
-```text
-/plugin marketplace add megamen32/megamen32-public-marketplace
-```
-
-## Install Agent Herder
+The canonical marketplace is:
 
 ```text
-/plugin install agent-herder@megamen32-public
+.agents/plugins/marketplace.json
 ```
 
-This public catalog intentionally excludes plugins whose source repositories are private. Internal/private plugins remain in the separate private `megamen32-marketplace` catalog.
+It references each public plugin's `main` branch without a SHA pin, so GitHub marketplace sync / Codex marketplace upgrade can receive future validated plugin updates.
+
+Add it to Codex:
+
+```bash
+codex plugin marketplace add megamen32/megamen32-public-marketplace --ref main
+codex plugin list --marketplace megamen32-public --available
+codex plugin add agent-herder@megamen32-public
+```
+
+Every plugin in the Codex catalog has a root `plugin.json` conforming to Agent Plugins 1.0.0.
+
+## Claude compatibility mirror
+
+`.claude-plugin/marketplace.json` is only a compatibility mirror and intentionally lists **only plugins that actually ship a Claude plugin manifest**. Portable Agent Plugins are not advertised as Claude plugins merely because they share skills.
+
+## Private catalog
+
+Internal/private plugins remain separate in the private `megamen32-marketplace` repository and are never mirrored here.

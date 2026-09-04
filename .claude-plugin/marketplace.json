@@ -1,54 +1,12 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "megamen32-public",
-  "description": "Public Claude Code plugin marketplace maintained by megamen32. Contains only plugins backed by public source repositories.",
+  "name": "megamen32-public-claude",
+  "description": "Claude-compatible mirror of the megamen32 public plugin catalog. The primary catalog is the Codex/Agent Plugins marketplace in .agents/plugins/marketplace.json.",
   "owner": {
     "name": "megamen32",
     "url": "https://github.com/megamen32"
   },
   "plugins": [
-    {
-      "name": "ask-human",
-      "version": "0.1.0",
-      "description": "Request an ordinary human decision or missing non-secret information through AskHuman.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "workflow",
-      "homepage": "https://github.com/megamen32/ask-human-plugin",
-      "keywords": [
-        "human-in-the-loop",
-        "decision",
-        "blocking",
-        "mcp"
-      ],
-      "source": {
-        "source": "github",
-        "repo": "megamen32/ask-human-plugin"
-      }
-    },
-    {
-      "name": "ask-secret",
-      "version": "0.1.0",
-      "description": "Create a one-time browser handoff link for entering a secret without putting the value in chat.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "security",
-      "homepage": "https://github.com/megamen32/ask-secret-plugin",
-      "keywords": [
-        "secret",
-        "credentials",
-        "opaque-handoff",
-        "mcp"
-      ],
-      "source": {
-        "source": "github",
-        "repo": "megamen32/ask-secret-plugin"
-      }
-    },
     {
       "name": "agent-herder",
       "version": "0.2.0",
@@ -73,59 +31,7 @@
       "source": {
         "source": "github",
         "repo": "megamen32/agent-herder",
-        "ref": "main",
-        "sha": "65bb493c5dbfb00901fef9b9083fda5a33712b1d"
-      }
-    },
-    {
-      "name": "grepmesh-search",
-      "version": "1.0.0",
-      "description": "Bounded GrepMesh search for unknown locations and cross-host scopes, with rg preferred for known local paths.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "productivity",
-      "homepage": "https://github.com/megamen32/grepmesh/tree/main/plugins/grepmesh-search",
-      "keywords": [
-        "search",
-        "grep",
-        "rg",
-        "mcp",
-        "codex",
-        "documents",
-        "zcode"
-      ],
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/megamen32/grepmesh.git",
-        "path": "plugins/grepmesh-search",
-        "ref": "main",
-        "sha": "e26ba0571ee2597f2f2b1fa786e9754f9f6d0b50"
-      }
-    },
-    {
-      "name": "fast-agent-plugin",
-      "version": "1.0.0",
-      "description": "Standalone Fast-Agent command plugin and portable agent skill; independent of GrepMesh.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "workflow",
-      "homepage": "https://github.com/megamen32/fast-agent-plugin",
-      "keywords": [
-        "fast-agent",
-        "agent-plugin",
-        "codex",
-        "zcode"
-      ],
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/megamen32/fast-agent-plugin.git",
-        "path": "plugins/fast-agent-plugin",
-        "ref": "main",
-        "sha": "003d466f7b0847e9d0a6aa2c40736db01564f254"
+        "ref": "main"
       }
     },
     {
@@ -150,58 +56,7 @@
         "source": "git-subdir",
         "url": "https://github.com/megamen32/LastHumanCommit.git",
         "path": "plugins/last-human-commit",
-        "ref": "main",
-        "sha": "c096e71d1c98cd3f7976267ee5acd78e4c087f6e"
-      }
-    },
-    {
-      "name": "learn-hermes",
-      "version": "1.0.0",
-      "description": "Hermes-derived durable-learning and skill-refinement policy packaged as an Agent Plugins 1.0.0 skill plugin.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "workflow",
-      "homepage": "https://github.com/megamen32/learn-hermes",
-      "keywords": [
-        "hermes",
-        "learning",
-        "skills",
-        "self-improvement",
-        "curation"
-      ],
-      "source": {
-        "source": "github",
-        "repo": "megamen32/learn-hermes",
-        "ref": "main",
-        "sha": "d04e0130d4e342099b982e7277745748f835cbc4"
-      }
-    },
-    {
-      "name": "ouroboros-self-improve",
-      "version": "1.0.0",
-      "description": "Ouroboros-derived self-improvement plugin with a portable lite loop and a source-faithful full reviewed self-modification runtime.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "orchestration",
-      "homepage": "https://github.com/megamen32/ouroboros-self-improve-plugin",
-      "keywords": [
-        "ouroboros",
-        "self-improvement",
-        "evolution",
-        "reflection",
-        "agent",
-        "review",
-        "learning"
-      ],
-      "source": {
-        "source": "github",
-        "repo": "megamen32/ouroboros-self-improve-plugin",
-        "ref": "main",
-        "sha": "b42e55f6a1459270b8736765d2c1e3a062fdefa6"
+        "ref": "main"
       }
     }
   ]
