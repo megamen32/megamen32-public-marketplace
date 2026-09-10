@@ -159,6 +159,40 @@
         ]
       },
       "category": "Productivity"
+    },
+    {
+      "name": "swap",
+      "description": "SpaceWeb Agent Plugin: panel JSON-RPC DNS client (swebmimic transport), WANB wildcard DDNS updater, certbot DNS-01 hooks.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/megamen32/swap-agent-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Networking"
+    },
+    {
+      "name": "regro",
+      "description": "REG.RU Agent Plugin: REG.API v2 WANB DDNS updater (dual-uplink) and certbot DNS-01 hooks.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/megamen32/regro-agent-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Networking"
     }
   ]
 }
