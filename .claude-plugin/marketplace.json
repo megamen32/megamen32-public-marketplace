@@ -60,6 +60,32 @@
       }
     },
     {
+      "name": "gsd",
+      "version": "1.42.3",
+      "description": "Portable full-profile Get Shit Done 1.42.3 Agent Plugin with 67 skills, workflows, agent prompts, and bundled SDK.",
+      "author": {
+        "name": "TACHES, packaged by megamen32",
+        "url": "https://github.com/gsd-build/get-shit-done"
+      },
+      "category": "workflow",
+      "homepage": "https://github.com/megamen32/gsd-agent-plugin",
+      "keywords": [
+        "gsd",
+        "workflow",
+        "planning",
+        "engineering",
+        "codex",
+        "claude",
+        "opencode",
+        "zcode"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "megamen32/gsd-agent-plugin",
+        "ref": "main"
+      }
+    },
+    {
       "name": "swap",
       "version": "0.1.0",
       "description": "SpaceWeb Agent Plugin: operate SpaceWeb DNS from an agent — panel JSON-RPC record editing via swebmimic, WANB wildcard DDNS updater, certbot DNS-01 hooks.",

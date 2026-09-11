@@ -17,7 +17,7 @@ Add it to Codex:
 ```bash
 codex plugin marketplace add megamen32/megamen32-public-marketplace --ref main
 codex plugin list --marketplace megamen32-public --available
-codex plugin add agent-herder@megamen32-public
+codex plugin add gsd@megamen32-public
 ```
 
 Every plugin in the Codex catalog has a root `plugin.json` conforming to Agent Plugins 1.0.0.
@@ -26,9 +26,16 @@ Every plugin in the Codex catalog has a root `plugin.json` conforming to Agent P
 
 `.claude-plugin/marketplace.json` is only a compatibility mirror and intentionally lists **only plugins that actually ship a Claude plugin manifest**. Portable Agent Plugins are not advertised as Claude plugins merely because they share skills.
 
+Install GSD in Claude Code:
+
+```bash
+claude plugin marketplace add megamen32/megamen32-public-marketplace
+claude plugin install gsd@megamen32-public-claude
+```
+
 ## Catalog
 
-The manifests are the source of truth for what is published here: the Codex/Agent Plugins catalog currently carries `ask-human`, `ask-secret`, `agent-herder`, `grepmesh-search`, `fast-agent-plugin`, `last-human-commit`, `learn-hermes`, `ouroboros-self-improve`, `universal-userio`, `swap` (SpaceWeb DNS toolkit) and `regro` (REG.RU DNS toolkit). Policy: **everything public lives here**; the private `megamen32-marketplace` holds only what is not in this catalog.
+The manifests are the source of truth for what is published here: the Codex/Agent Plugins catalog currently carries `ask-human`, `ask-secret`, `agent-herder`, `grepmesh-search`, `fast-agent-plugin`, `last-human-commit`, `gsd`, `learn-hermes`, `ouroboros-self-improve`, `universal-userio`, `swap` (SpaceWeb DNS toolkit) and `regro` (REG.RU DNS toolkit). Policy: **everything public lives here**; the private `megamen32-marketplace` holds only what is not in this catalog.
 
 ## Private catalog
 
