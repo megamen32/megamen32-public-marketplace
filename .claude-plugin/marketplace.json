@@ -35,31 +35,6 @@
       }
     },
     {
-      "name": "last-human-commit",
-      "version": "0.3.0",
-      "description": "Portable business-first workflow and reusable Worker research, code, and bugfix skills. 10 skills: planning, task-decomposition, worker-research, worker-code, worker-bugfix, real-use-testing, release, business-delivery, feature-implementation, bugfix-tdd. Loaded as a cohort from the LastHumanCommit monorepo.",
-      "author": {
-        "name": "megamen32",
-        "url": "https://github.com/megamen32"
-      },
-      "category": "workflow",
-      "homepage": "https://github.com/megamen32/LastHumanCommit/tree/main/plugins/last-human-commit",
-      "keywords": [
-        "workflow",
-        "engineering",
-        "research",
-        "testing",
-        "delivery",
-        "lhc"
-      ],
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/megamen32/LastHumanCommit.git",
-        "path": "plugins/last-human-commit",
-        "ref": "main"
-      }
-    },
-    {
       "name": "gsd",
       "version": "1.42.3",
       "description": "Portable full-profile Get Shit Done 1.42.3 Agent Plugin with 67 skills, workflows, agent prompts, and bundled SDK.",

@@ -92,24 +92,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "last-human-commit",
-      "description": "Business-first engineering workflow with research, implementation, testing, and release skills.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/megamen32/LastHumanCommit.git",
-        "path": "plugins/last-human-commit",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL",
-        "products": [
-          "CODEX"
-        ]
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "gsd",
       "description": "Full-profile Get Shit Done 1.42.3: 67 planning, execution, review, and project-management skills in a portable Agent Plugin.",
       "source": {
