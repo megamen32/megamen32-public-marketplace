@@ -1,42 +1,41 @@
-# megamen32 public Agent Plugins marketplace
+# megamen32 public marketplace
 
-Public, Codex-first marketplace for portable [Agent Plugins 1.0.0](https://agent-plugins.org/) packages maintained by `megamen32`.
+Public marketplace of portable [Agent Plugins 1.0.0](https://agent-plugins.org/) by [megamen32](https://github.com/megamen32). Codex and Claude Code are first-class clients of the same public collection.
 
-## Primary format: OpenAI Codex / Agent Plugins
+## Projects
 
-The canonical marketplace is:
+- [ask-human](https://github.com/megamen32/ask-human-plugin)
+- [ask-secret](https://github.com/megamen32/ask-secret-plugin)
+- [agent-herder](https://github.com/megamen32/agent-herder)
+- [grepmesh-search](https://github.com/megamen32/grepmesh/tree/main/plugins/grepmesh-search)
+- [fast-agent-plugin](https://github.com/megamen32/fast-agent-plugin/tree/main/plugins/fast-agent-plugin)
+- [last-human-commit](https://github.com/megamen32/LastHumanCommit/tree/main/plugins/last-human-commit)
+- [gsd](https://github.com/megamen32/gsd-agent-plugin)
+- [learn-hermes](https://github.com/megamen32/learn-hermes)
+- [ouroboros-self-improve](https://github.com/megamen32/ouroboros-self-improve-plugin)
+- [universal-userio](https://github.com/megamen32/universal-userio)
+- [swap](https://github.com/megamen32/swap-agent-plugin)
+- [regro](https://github.com/megamen32/regro-agent-plugin)
+- [focus-group](https://github.com/megamen32/focus-group)
 
-```text
-.agents/plugins/marketplace.json
-```
+## Install
 
-It references each public plugin's `main` branch without a SHA pin, so GitHub marketplace sync / Codex marketplace upgrade can receive future validated plugin updates.
-
-Add it to Codex:
+### Codex
 
 ```bash
 codex plugin marketplace add megamen32/megamen32-public-marketplace --ref main
 codex plugin list --marketplace megamen32-public --available
-codex plugin add gsd@megamen32-public
 ```
 
-Every plugin in the Codex catalog has a root `plugin.json` conforming to Agent Plugins 1.0.0.
+Catalog: [.agents/plugins/marketplace.json](.agents/plugins/marketplace.json)
 
-## Claude compatibility mirror
-
-`.claude-plugin/marketplace.json` is only a compatibility mirror and intentionally lists **only plugins that actually ship a Claude plugin manifest**. Portable Agent Plugins are not advertised as Claude plugins merely because they share skills.
-
-Install GSD in Claude Code:
+### Claude Code
 
 ```bash
 claude plugin marketplace add megamen32/megamen32-public-marketplace
 claude plugin install gsd@megamen32-public-claude
 ```
 
-## Catalog
+Catalog: [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json)
 
-The manifests are the source of truth for what is published here: the Codex/Agent Plugins catalog currently carries `ask-human`, `ask-secret`, `agent-herder`, `focus-group`, `grepmesh-search`, `fast-agent-plugin`, `last-human-commit`, `gsd`, `learn-hermes`, `ouroboros-self-improve`, `universal-userio`, `swap` (SpaceWeb DNS toolkit) and `regro` (REG.RU DNS toolkit). Policy: **everything public lives here**; the private `megamen32-marketplace` holds only what is not in this catalog.
-
-## Private catalog
-
-Internal/private plugins remain separate in the private `megamen32-marketplace` repository and are never mirrored here.
+The two catalogs expose the plugin manifests supported by their respective clients; neither is presented as the primary format.
