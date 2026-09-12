@@ -35,7 +35,7 @@ claude plugin install gsd@megamen32-public-claude
 
 ## Catalog
 
-The manifests are the source of truth for what is published here: the Codex/Agent Plugins catalog currently carries `ask-human`, `ask-secret`, `agent-herder`, `grepmesh-search`, `fast-agent-plugin`, `last-human-commit`, `gsd`, `learn-hermes`, `ouroboros-self-improve`, `universal-userio`, `swap` (SpaceWeb DNS toolkit) and `regro` (REG.RU DNS toolkit). Policy: **everything public lives here**; the private `megamen32-marketplace` holds only what is not in this catalog.
+The manifests are the source of truth for what is published here: the Codex/Agent Plugins catalog currently carries `ask-human`, `ask-secret`, `agent-herder`, `focus-group`, `grepmesh-search`, `fast-agent-plugin`, `last-human-commit`, `gsd`, `learn-hermes`, `ouroboros-self-improve`, `universal-userio`, `swap` (SpaceWeb DNS toolkit) and `regro` (REG.RU DNS toolkit). Policy: **everything public lives here**; the private `megamen32-marketplace` holds only what is not in this catalog.
 
 ## Private catalog
 
