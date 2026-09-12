@@ -130,6 +130,19 @@
         "repo": "megamen32/regro-agent-plugin",
         "ref": "main"
       }
+    },
+    {
+      "name": "focus-group",
+      "version": "1.0.0",
+      "description": "Synthetic recipient feedback with detailed personas and one material per independent context.",
+      "author": {"name": "megamen32"},
+      "category": "productivity",
+      "homepage": "https://github.com/megamen32/focus-group",
+      "source": {
+        "source": "github",
+        "repo": "megamen32/focus-group",
+        "ref": "main"
+      }
     }
   ]
 }

@@ -210,6 +210,20 @@
         ]
       },
       "category": "Networking"
+    },
+    {
+      "name": "focus-group",
+      "description": "Synthetic recipient feedback with detailed personas and one material per independent context.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/megamen32/focus-group.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
