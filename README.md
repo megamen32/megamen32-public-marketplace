@@ -11,7 +11,6 @@ Public marketplace of portable [Agent Plugins 1.0.0](https://agent-plugins.org/)
 - [agent-herder](https://github.com/megamen32/agent-herder) — coordinate coding-agent sessions, messages, ownership notes, and autopilot supervision.
 - [grepmesh-search](https://github.com/megamen32/grepmesh/tree/main/plugins/grepmesh-search) — search unknown paths and configured remote scopes without uncontrolled scanning.
 - [fast-agent-plugin](https://github.com/megamen32/fast-agent-plugin/tree/main/plugins/fast-agent-plugin) — commands and portable skills for building faster agent workflows.
-- [last-human-commit](https://github.com/megamen32/LastHumanCommit/tree/main/plugins/last-human-commit) — business-first engineering workflow: research, implementation, testing, and release.
 - [gsd](https://github.com/megamen32/gsd-agent-plugin) — a complete planning, execution, review, and project-management workflow for agent-assisted development.
 - [learn-hermes](https://github.com/megamen32/learn-hermes) — preserve useful lessons and improve skills across agent work instead of losing them after a task.
 - [ouroboros-self-improve](https://github.com/megamen32/ouroboros-self-improve-plugin) — reviewed reflection and self-improvement workflow for agents.

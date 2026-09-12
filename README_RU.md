@@ -11,7 +11,6 @@
 - [agent-herder](https://github.com/megamen32/agent-herder) — координирует сессии агентов-разработчиков, сообщения, заметки о владении и автопилот.
 - [grepmesh-search](https://github.com/megamen32/grepmesh/tree/main/plugins/grepmesh-search) — ищет в неизвестных путях и настроенных удалённых областях без неконтролируемого сканирования.
 - [fast-agent-plugin](https://github.com/megamen32/fast-agent-plugin/tree/main/plugins/fast-agent-plugin) — команды и переносимые навыки для более быстрых агентных процессов.
-- [last-human-commit](https://github.com/megamen32/LastHumanCommit/tree/main/plugins/last-human-commit) — бизнес-ориентированный инженерный процесс: исследование, реализация, тестирование и релиз.
 - [gsd](https://github.com/megamen32/gsd-agent-plugin) — полный процесс планирования, выполнения, ревью и управления проектом для разработки с агентами.
 - [learn-hermes](https://github.com/megamen32/learn-hermes) — сохраняет полезные выводы и улучшает навыки агента между задачами.
 - [ouroboros-self-improve](https://github.com/megamen32/ouroboros-self-improve-plugin) — проверяемый процесс рефлексии и самоулучшения агентов.

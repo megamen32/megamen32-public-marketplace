@@ -11,7 +11,6 @@
 - [agent-herder](https://github.com/megamen32/agent-herder) — 协调编程代理会话、消息、所有权说明与自动监督。
 - [grepmesh-search](https://github.com/megamen32/grepmesh/tree/main/plugins/grepmesh-search) — 在未知路径和已配置远程范围内搜索，避免无控制扫描。
 - [fast-agent-plugin](https://github.com/megamen32/fast-agent-plugin/tree/main/plugins/fast-agent-plugin) — 用于构建更快代理工作流的命令和可移植技能。
-- [last-human-commit](https://github.com/megamen32/LastHumanCommit/tree/main/plugins/last-human-commit) — 以业务为先的工程流程：研究、实现、测试与发布。
 - [gsd](https://github.com/megamen32/gsd-agent-plugin) — 面向代理辅助开发的完整规划、执行、审查和项目管理流程。
 - [learn-hermes](https://github.com/megamen32/learn-hermes) — 在代理任务之间保留有用经验并改进技能。
 - [ouroboros-self-improve](https://github.com/megamen32/ouroboros-self-improve-plugin) — 经过审查的代理反思与自我改进流程。
