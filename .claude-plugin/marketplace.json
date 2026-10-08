@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "agent-herder",
-      "version": "0.2.0",
-      "description": "Coordinate and supervise parent/child coding-agent sessions with MCP messaging, TTL coordination notes, session inspection, and autopilot.",
+      "version": "0.2.1",
+      "description": "Coordinate agent sessions, autopilot, and task-aware Codex/ZCode chat triage.",
       "author": {
         "name": "Agent Herder contributors"
       },
@@ -110,7 +110,9 @@
       "name": "focus-group",
       "version": "1.0.0",
       "description": "Synthetic recipient feedback with detailed personas and one material per independent context.",
-      "author": {"name": "megamen32"},
+      "author": {
+        "name": "megamen32"
+      },
       "category": "productivity",
       "homepage": "https://github.com/megamen32/focus-group",
       "source": {
