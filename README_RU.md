@@ -2,7 +2,7 @@
 
 [English](README.md) · Русский · [中文](README_CN.md)
 
-Публичный маркетплейс переносимых [Agent Plugins 1.0.0](https://agent-plugins.org/) от [megamen32](https://github.com/megamen32). В каждом клиентском индексе указаны совместимые с ним пакеты; MiniMax Code подключает UserIO напрямую из исходного репозитория, а не через индекс этого маркетплейса.
+Публичный маркетплейс переносимых [Agent Plugins 1.0.0](https://agent-plugins.org/) от [megamen32](https://github.com/megamen32). UserIO указан в каталоге проектов и индексе Codex. MiniMax Code импортирует его напрямую из исходного репозитория; в каталоге Claude Code UserIO пока не представлен.
 
 ## Проекты
 

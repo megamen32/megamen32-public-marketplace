@@ -2,7 +2,7 @@
 
 English · [Русский](README_RU.md) · [中文](README_CN.md)
 
-Public marketplace of portable [Agent Plugins 1.0.0](https://agent-plugins.org/) by [megamen32](https://github.com/megamen32). Each client index lists the packages it can install; MiniMax Code imports UserIO directly from its source repository rather than from this marketplace index.
+Public marketplace of portable [Agent Plugins 1.0.0](https://agent-plugins.org/) by [megamen32](https://github.com/megamen32). UserIO is listed in the Projects directory and Codex catalog. MiniMax Code imports it directly from its source repository; it is not currently listed in the Claude Code catalog.
 
 ## Projects
 

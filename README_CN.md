@@ -2,7 +2,7 @@
 
 [English](README.md) · [Русский](README_RU.md) · 中文
 
-[megamen32](https://github.com/megamen32) 的可移植 [Agent Plugins 1.0.0](https://agent-plugins.org/) 公共市场。各客户端索引只列出兼容的插件；MiniMax Code 从 UserIO 源仓库直接导入，不使用本市场索引。
+[megamen32](https://github.com/megamen32) 的可移植 [Agent Plugins 1.0.0](https://agent-plugins.org/) 公共市场。UserIO 已列入项目目录和 Codex 索引。MiniMax Code 从源仓库直接导入；目前 Claude Code 目录尚未列出 UserIO。
 
 ## 项目
 
