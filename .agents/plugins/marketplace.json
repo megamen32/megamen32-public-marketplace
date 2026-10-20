@@ -148,7 +148,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/megamen32/universal-userio.git",
-        "path": "plugins/universal-userio",
+        "path": "./plugins/universal-userio",
         "ref": "main"
       },
       "policy": {
