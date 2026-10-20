@@ -2,7 +2,7 @@
 
 [English](README.md) · Русский · [中文](README_CN.md)
 
-Публичный маркетплейс переносимых [Agent Plugins 1.0.0](https://agent-plugins.org/) от [megamen32](https://github.com/megamen32). Codex и Claude Code — равноправные клиенты одной публичной коллекции.
+Публичный маркетплейс переносимых [Agent Plugins 1.0.0](https://agent-plugins.org/) от [megamen32](https://github.com/megamen32). В каждом клиентском индексе указаны совместимые с ним пакеты; MiniMax Code подключает UserIO напрямую из исходного репозитория, а не через индекс этого маркетплейса.
 
 ## Проекты
 
@@ -14,7 +14,7 @@
 - [gsd](https://github.com/megamen32/gsd-agent-plugin) — полный процесс планирования, выполнения, ревью и управления проектом для разработки с агентами.
 - [learn-hermes](https://github.com/megamen32/learn-hermes) — сохраняет полезные выводы и улучшает навыки агента между задачами.
 - [ouroboros-self-improve](https://github.com/megamen32/ouroboros-self-improve-plugin) — проверяемый процесс рефлексии и самоулучшения агентов.
-- [universal-userio](https://github.com/megamen32/universal-userio) — единый интерфейс к Gmail, Telegram, WhatsApp, SMS, Matrix и другим пользовательским каналам связи.
+- [universal-userio](https://github.com/megamen32/universal-userio/tree/main/plugins/universal-userio) — переносимый пакет Agent Plugin 1.0 для Gmail, Telegram, WhatsApp, SMS, Matrix и других каналов UserIO.
 - [swap](https://github.com/megamen32/swap-agent-plugin) — управляет DNS SpaceWeb, wildcard DDNS и DNS-01-проверками Certbot.
 - [regro](https://github.com/megamen32/regro-agent-plugin) — управляет DNS REG.RU, DDNS для двух uplink-каналов и DNS-01-проверками Certbot.
 - [focus-group](https://github.com/megamen32/focus-group) — проверяет письмо, предложение или страницу на независимых синтетических портретах получателей до отправки людям.
@@ -39,4 +39,10 @@ claude plugin install gsd@megamen32-public-claude
 
 Каталог: [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json)
 
-Клиентам нужны индексы маркетплейса с разными схемами, поэтому здесь есть два небольших клиентских индекса одних и тех же проектов. Сами плагины остаются переносимыми Agent Plugins; первичного каталога среди них нет.
+### MiniMax Code (UserIO)
+
+MiniMax Code не импортирует индекс этого маркетплейса. Импортируйте UserIO как
+отдельный GitHub-плагин из `https://github.com/megamen32/universal-userio/tree/main/plugins/universal-userio` либо
+воспользуйтесь [руководством по MiniMax Code](https://github.com/megamen32/universal-userio/blob/main/docs/guide/minimax-code.md).
+
+Клиентам нужны индексы маркетплейса с разными схемами, поэтому здесь есть отдельные индексы. MiniMax Code импортирует UserIO напрямую из каталога пакета и не устанавливает индекс этого маркетплейса.

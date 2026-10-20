@@ -2,7 +2,7 @@
 
 [English](README.md) · [Русский](README_RU.md) · 中文
 
-[megamen32](https://github.com/megamen32) 的可移植 [Agent Plugins 1.0.0](https://agent-plugins.org/) 公共市场。Codex 与 Claude Code 是同一公共项目集的平等客户端。
+[megamen32](https://github.com/megamen32) 的可移植 [Agent Plugins 1.0.0](https://agent-plugins.org/) 公共市场。各客户端索引只列出兼容的插件；MiniMax Code 从 UserIO 源仓库直接导入，不使用本市场索引。
 
 ## 项目
 
@@ -14,7 +14,7 @@
 - [gsd](https://github.com/megamen32/gsd-agent-plugin) — 面向代理辅助开发的完整规划、执行、审查和项目管理流程。
 - [learn-hermes](https://github.com/megamen32/learn-hermes) — 在代理任务之间保留有用经验并改进技能。
 - [ouroboros-self-improve](https://github.com/megamen32/ouroboros-self-improve-plugin) — 经过审查的代理反思与自我改进流程。
-- [universal-userio](https://github.com/megamen32/universal-userio) — Gmail、Telegram、WhatsApp、SMS、Matrix 和其他用户通信渠道的统一接口。
+- [universal-userio](https://github.com/megamen32/universal-userio/tree/main/plugins/universal-userio) — Gmail、Telegram、WhatsApp、SMS、Matrix 和其他 UserIO 渠道的 Agent Plugin 1.0 包。
 - [swap](https://github.com/megamen32/swap-agent-plugin) — 管理 SpaceWeb DNS、通配符 DDNS 和 Certbot DNS-01 验证。
 - [regro](https://github.com/megamen32/regro-agent-plugin) — 管理 REG.RU DNS、双链路 DDNS 和 Certbot DNS-01 验证。
 - [focus-group](https://github.com/megamen32/focus-group) — 在发给真人前，用独立的合成受众画像测试信件、提案或页面。
@@ -39,4 +39,10 @@ claude plugin install gsd@megamen32-public-claude
 
 目录：[.claude-plugin/marketplace.json](.claude-plugin/marketplace.json)
 
-两个客户端需要不同模式的市场索引，因此此仓库为同一组项目保留两个小型客户端索引。插件本身仍是可移植的 Agent Plugins；两者没有主次之分。
+### MiniMax Code (UserIO)
+
+MiniMax Code 不导入本市场索引。请从以下 GitHub 子目录导入 UserIO：
+`https://github.com/megamen32/universal-userio/tree/main/plugins/universal-userio`。
+[MiniMax Code 安装指南](https://github.com/megamen32/universal-userio/blob/main/docs/guide/minimax-code.md)
+
+客户端需要不同格式的市场索引，因此此仓库保留了单独的客户端索引。MiniMax Code 直接导入 UserIO 插件子目录，不安装本市场索引。

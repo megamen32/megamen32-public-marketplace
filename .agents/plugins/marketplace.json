@@ -146,8 +146,9 @@
       "name": "universal-userio",
       "description": "Unified Gmail, Telegram, WhatsApp, SMS, Matrix and other user communications over a remote MCP 2.0 endpoint.",
       "source": {
-        "source": "url",
+        "source": "git-subdir",
         "url": "https://github.com/megamen32/universal-userio.git",
+        "path": "plugins/universal-userio",
         "ref": "main"
       },
       "policy": {
